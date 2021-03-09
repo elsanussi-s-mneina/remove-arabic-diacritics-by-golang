@@ -97,3 +97,12 @@ func TestTextFilterOnWordForThis(t *testing.T) {
 		t.Error("Failed to remove ARABIC LETTER SUPERSCRIPT ALEF from Arabic word for this (m.sg.)")
 	}
 }
+
+func TestTextFilterOnWordForThisFeminineForSubscriptAlef(t *testing.T) {
+	word := "ٖهذه"
+
+	v := TextFilter(word)
+	if v != "هذه" {
+		t.Error("Failed to remove ARABIC SUBSCRIPT ALEF from Arabic word for this (f.sg.)")
+	}
+}

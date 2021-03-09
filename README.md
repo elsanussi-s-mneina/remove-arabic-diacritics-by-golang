@@ -8,6 +8,7 @@
 - ARABIC SHADDA
 - ARABIC SUKUN
 - ARABIC LETTER SUPERSCRIPT ALEF
+- ARABIC SUBSCRIPT ALEF
 
 # Development Requirements
 - Go (See golang.org)
