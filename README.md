@@ -7,6 +7,7 @@
 - ARABIC FATHA, KASRA, DAMMA
 - ARABIC SHADDA
 - ARABIC SUKUN
+- ARABIC LETTER SUPERSCRIPT ALEF
 
 # Development Requirements
 - Go (See golang.org)

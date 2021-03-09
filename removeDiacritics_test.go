@@ -88,3 +88,12 @@ func TestTextFilterOnWordForSchool(t *testing.T) {
 		t.Error("Failed to remove FATHA, SUKUN, FATHA, DAMMATAN from Arabic word for School")
 	}
 }
+
+func TestTextFilterOnWordForThis(t *testing.T) {
+	word := "هٰذا"
+
+	v := TextFilter(word)
+	if v != "هذا" {
+		t.Error("Failed to remove ARABIC LETTER SUPERSCRIPT ALEF from Arabic word for this (m.sg.)")
+	}
+}
