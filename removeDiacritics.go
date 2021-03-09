@@ -37,7 +37,7 @@ const arabic_fathatan rune = '\u064B'
 // https://golang.org/ref/spec#Rune_literals
 // https://golangbyexample.com/iterate-over-a-string-golang/
 
-func textFilter(text string) string {
+func TextFilter(text string) string {
 	result := ""
 	for _, aRune := range text {
 		if aRune == arabic_fathatan {
@@ -55,7 +55,7 @@ func main() {
 
 	for scanner.Scan() {
 
-		ucl := textFilter(scanner.Text())
+		ucl := TextFilter(scanner.Text())
 
 		fmt.Println(ucl)
 	}
