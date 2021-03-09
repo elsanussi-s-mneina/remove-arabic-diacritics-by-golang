@@ -79,3 +79,12 @@ func TestTextFilterOnWordForGoodness(t *testing.T) {
 	}
 
 }
+
+func TestTextFilterOnWordForSchool(t *testing.T) {
+	nominative := "مَدْرَسَةٌ"
+
+	v := TextFilter(nominative)
+	if v != "مدرسة" {
+		t.Error("Failed to remove FATHA, SUKUN, FATHA, DAMMATAN from Arabic word for School")
+	}
+}

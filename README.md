@@ -6,6 +6,7 @@
 - ARABIC FATHATAN, KASRATAN, DAMMATAN
 - ARABIC FATHA, KASRA, DAMMA
 - ARABIC SHADDA
+- ARABIC SUKUN
 
 # Development Requirements
 - Go (See golang.org)

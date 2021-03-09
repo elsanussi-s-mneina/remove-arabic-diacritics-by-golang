@@ -61,6 +61,7 @@ func TextFilter(text string) string {
 		} else if aRune == arabic_kasra {
 
 		} else if aRune == arabic_shadda {
+		} else if aRune == arabic_sukun {
 		} else {
 			result += string(aRune)
 		}
