@@ -31,7 +31,6 @@ import (
 	"os"
 )
 
-// So far the program only removes a single diacritic.
 const arabic_fathatan rune = '\u064B'
 const arabic_dammatan rune = '\u064C'
 const arabic_kasratan rune = '\u064D'
@@ -46,7 +45,7 @@ const arabic_letter_superscript_alef rune = '\u0670'
 // https://golang.org/ref/spec#Rune_literals
 // https://golangbyexample.com/iterate-over-a-string-golang/
 
-func TextFilter(text string) string {
+func RemoveDiacritics(text string) string {
 	result := ""
 	for _, aRune := range text {
 		if aRune == arabic_fathatan {
@@ -77,9 +76,9 @@ func main() {
 
 	for scanner.Scan() {
 
-		ucl := TextFilter(scanner.Text())
+		result := RemoveDiacritics(scanner.Text())
 
-		fmt.Println(ucl)
+		fmt.Println(result)
 	}
 
 	if err := scanner.Err(); err != nil {

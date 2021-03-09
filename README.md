@@ -1,5 +1,5 @@
 # Go lang application to remove Arabic diacritics.
-15 percent implemented.
+90 percent implemented. We just need to set up modules so that it can be imported properly in other projects.
 
 # Diacritics currently handled
 (Note unicode ascii names listed here:)
