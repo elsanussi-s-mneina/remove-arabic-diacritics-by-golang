@@ -33,6 +33,7 @@ import (
 
 // So far the program only removes a single diacritic.
 const arabic_fathatan rune = '\u064B'
+const arabic_fatha rune = '\u064E'
 
 // https://golang.org/ref/spec#Rune_literals
 // https://golangbyexample.com/iterate-over-a-string-golang/
@@ -41,6 +42,8 @@ func TextFilter(text string) string {
 	result := ""
 	for _, aRune := range text {
 		if aRune == arabic_fathatan {
+
+		} else if aRune == arabic_fatha {
 
 		} else {
 			result += string(aRune)

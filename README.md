@@ -4,7 +4,7 @@
 # Diacritics currently handled
 (Note unicode ascii names listed here:)
 - ARABIC FATHATAN
-
+- ARABIC FATHA
 
 # Development Requirements
 - Go (See golang.org)
