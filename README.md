@@ -1,10 +1,11 @@
 # Go lang application to remove Arabic diacritics.
-3 percent implemented.
+15 percent implemented.
 
 # Diacritics currently handled
 (Note unicode ascii names listed here:)
-- ARABIC FATHATAN
-- ARABIC FATHA
+- ARABIC FATHATAN, KASRATAN, DAMMATAN
+- ARABIC FATHA, KASRA, DAMMA
+- ARABIC SHADDA
 
 # Development Requirements
 - Go (See golang.org)
