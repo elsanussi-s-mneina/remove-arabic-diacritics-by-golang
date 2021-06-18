@@ -4,3 +4,7 @@
 Project started. It is based off the Haskell version at https://github.com/elsanussi-s-mneina/remove-arabic-diacritics-by-haskell
 - Implemented removal of one character
 - Write one unit test and get it to run.
+
+## 2021-06-18:
+Adding more unit tests. Still need to write tests for all Arabic code points, 
+and to define the behaviour.
