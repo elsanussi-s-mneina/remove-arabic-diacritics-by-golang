@@ -7,7 +7,15 @@ import (
 func TestRemoveDiacriticsOnLatinText(t *testing.T) {
 	result := RemoveDiacritics("hello")
 	if result != "hello" {
-		t.Error("Failed the test!")
+		t.Error("Failed to preserve Latin text!")
+	}
+}
+
+func TestDoNotRemoveAcuteAccentLatinText(t *testing.T) {
+	original := "resumé"
+	result := RemoveDiacritics(original)
+	if result != original {
+		t.Error("Failed to preserve acute accent on Latin text!")
 	}
 }
 
