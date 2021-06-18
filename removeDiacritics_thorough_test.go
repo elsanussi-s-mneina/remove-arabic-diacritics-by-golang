@@ -125,7 +125,7 @@ func TestPreserveArabicLetterHamza(t *testing.T) {
 func TestPreserveArabicLetterAlefWithMaddaAbove(t *testing.T) {
 	preserveCharTest(t, '\u0622', "ARABIC LETTER ALEF WITH MADDA ABOVE")
 }
-func TestPreserveArabicLetterAlefWithMaddaAbove(t *testing.T) {
+func TestPreserveArabicLetterAlefWithHamzaAbove(t *testing.T) {
 	preserveCharTest(t, '\u0623', "ARABIC LETTER ALEF WITH HAMZA ABOVE")
 }
 func TestPreserveArabicLetterWawWithHamzaAbove(t *testing.T) {
