@@ -143,6 +143,46 @@ func TestPreserveArabicLetterAlef(t *testing.T) {
 	preserveCharTest(t, '\u0627', "ARABIC LETTER ALEF")
 }
 
+func TestPreserveArabicLetterBeh(t *testing.T) {
+	preserveCharTest(t, '\u0628', "ARABIC LETTER BEH")
+}
+
+func TestPreserveArabicLetterTehMarbuta(t *testing.T) {
+	preserveCharTest(t, '\u0629', "ARABIC LETTER TEH MARBUTA")
+}
+
+func TestPreserveArabicLetterTeh(t *testing.T) {
+	preserveCharTest(t, '\u062A', "ARABIC LETTER TEH")
+}
+
+func TestPreserveArabicLetterTheh(t *testing.T) {
+	preserveCharTest(t, '\u062B', "ARABIC LETTER THEH")
+}
+
+func TestPreserveArabicLetterJeem(t *testing.T) {
+	preserveCharTest(t, '\u062C', "ARABIC LETTER JEEM")
+}
+
+func TestPreserveArabicLetterHah(t *testing.T) {
+	preserveCharTest(t, '\u062D', "ARABIC LETTER HAH")
+}
+
+func TestPreserveArabicLetterKhah(t *testing.T) {
+	preserveCharTest(t, '\u062E', "ARABIC LETTER KHAH")
+}
+
+func TestPreserveArabicLetterDal(t *testing.T) {
+	preserveCharTest(t, '\u062F', "ARABIC LETTER DAL")
+}
+
+func TestPreserveArabicLetterThal(t *testing.T) {
+	preserveCharTest(t, '\u0630', "ARABIC LETTER THAL")
+}
+
+func TestPreserveArabicLetterReh(t *testing.T) {
+	preserveCharTest(t, '\u0631', "ARABIC LETTER REH")
+}
+
 /*  The following is a template.
 
 func TestPreserve(t* testing.T) {
